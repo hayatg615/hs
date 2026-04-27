@@ -1,0 +1,97 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hayat Shamil — About Me</title>
+
+  <link rel="stylesheet" href="hayat.css">
+
+
+  
+</head>
+<body>
+  <div class="page" role="document">
+    <header>
+      <div class="brand">
+        <img src="web.webp" alt="Hayat Shamil photo" style="width:56px;height:56px;border-radius:8px;object-fit:cover">
+        <div>
+          <h1>HAYAT SHAMIL</h1>
+          <div style="font-size:12px;color:#9fdff6">Web Designer • Student • Learner</div>
+        </div>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" aria-labelledby="about-heading">
+        <div class="hero">
+          <img src="niqabi.webp" alt="Hayat Shamil portrait" class="profile">
+          <div class="hero-content">
+            <h2 id="about-heading">About Me</h2>
+            <p>Hello — I’m <strong>Hayat Shamil</strong>. I’m 17 years old and passionate about web design and building modern, accessible websites. I enjoy learning new tools and improving my skills every day.</p>
+            <a class="btn" href="#projects">View Work</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-heading">
+        <div class="section-title" style="margin-bottom:8px">
+          <h3 id="projects-heading" style="color:var(--accent);margin:0">Projects</h3>
+        </div>
+
+        <div class="projects-grid">
+          <article class="card" aria-labelledby="p1">
+            <img src="OIP (1).webp" alt="Project One screenshot" class="card-img">
+            <h4 id="p1">Project One — EdTech App</h4>
+            <p>School project focused on educational technology. Built interactive learning activities and simple simulations to make lessons engaging.</p>
+          </article>
+
+          <article class="card" aria-labelledby="p2">
+            <img src="OIP (2).webp" alt="Project Two screenshot" class="card-img">
+            <h4 id="p2">Project Two — Digital Library</h4>
+            <p>A digital library interface for browsing and reading resources. Features search, categories, and responsive reading layout.</p>
+          </article>
+
+          <article class="card" aria-labelledby="p3">
+            <img src="download.webp" alt="Project Three screenshot" class="card-img">
+            <h4 id="p3">Project Three — Digital Hospital</h4>
+            <p>Prototype for a digital hospital dashboard to manage appointments, patient records, and telehealth features.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <div class="section-title" style="margin-bottom:8px">
+          <h3 id="contact-heading" style="color:var(--accent);margin:0">Contact</h3>
+        </div>
+
+        <div class="contact-box">
+          <div class="contact-info">
+            <p><strong>Email</strong></p>
+            <p>your@email.com</p>
+            <p style="margin-top:10px;color:#cfeff9">© 2026 Hayat</p>
+          </div>
+
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Form demo — replace with real handler');" aria-label="Contact form">
+            <input class="input" type="text" name="name" placeholder="Your name" required>
+            <input class="input" type="email" name="email" placeholder="Your email" required>
+            <textarea class="input" name="message" rows="4" placeholder="Message" required></textarea>
+            <button class="btn" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Made with curiosity and code
+    </footer>
+  </div>
+</body>
+</html>
